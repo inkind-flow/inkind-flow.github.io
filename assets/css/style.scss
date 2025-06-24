@@ -24,13 +24,13 @@
 
 // Additional global styles
 .btn-donate {
-  background: $brand-color;
+  background: $link-color;
   color: white;
   padding: 0.8rem 1.5rem;
   border-radius: 4px;
 
   &:hover {
-    background: darken($brand-color, 10%);
+    background: lighten($link-color, 10%);
   }
 }
 
