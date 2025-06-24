@@ -58,3 +58,60 @@
     }
   }
 }
+
+// Product page styles
+.product-features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  margin: 2.5rem 0 2rem 0;
+
+  .feature-card {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 2px 12px rgba(128,0,32,0.07);
+    padding: 2rem 1.5rem;
+    border-top: 4px solid #800020;
+    h2 {
+      color: #800020;
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5em;
+      justify-content: center;
+    }
+    ul {
+      list-style: disc inside;
+      color: #333;
+      font-size: 1.05rem;
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 0.5em;
+    }
+  }
+}
+
+.product-cta {
+  text-align: center;
+  margin: 2.5rem 0 1rem 0;
+}
+
+.btn-demo {
+  background: #800020;
+  color: #fff !important;
+  padding: 0.9rem 2.2rem;
+  border-radius: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.15rem;
+  box-shadow: 0 4px 15px rgba(128,0,32,0.08);
+  transition: background 0.2s;
+}
+.btn-demo:hover {
+  background: #a8324a;
+  color: #fff !important;
+}
