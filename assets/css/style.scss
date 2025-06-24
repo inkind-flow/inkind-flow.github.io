@@ -1,0 +1,35 @@
+---
+# Only these front matter dashes (no content)
+---
+
+@import "minima";
+@import "minima/syntax-highlighting";
+@import "custom/variables";
+@import "custom/header";
+@import "custom/team";
+@import "custom/banner";
+@import "custom/errors";
+
+
+/* LinkedIn Button */
+.btn-linkedin {
+  display: inline-block;
+  background: #0077B5;
+  color: white !important;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+
+// Additional global styles
+.btn-donate {
+  background: $brand-color;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 4px;
+
+  &:hover {
+    background: darken($brand-color, 10%);
+  }
+}

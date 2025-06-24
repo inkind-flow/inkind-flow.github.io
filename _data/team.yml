@@ -1,0 +1,17 @@
+- name: "Alex Johnson"
+  role: "CEO & Founder"
+  bio: "10+ years in nonprofit tech. Passionate about social impact."
+  linkedin: "https://linkedin.com/in/alexjohnson"  # Replace with real links
+  image: "assets/images/alex.jpg"
+
+- name: "Sam Lee"
+  role: "Lead Developer"
+  bio: "Full-stack developer with a focus on scalable solutions."
+  linkedin: "https://linkedin.com/in/samlee"
+  image: "assets/images/sam.jpg"
+
+- name: "Taylor Smith"
+  role: "Head of Partnerships"
+  bio: "Connects nonprofits with the right tools."
+  linkedin: "https://linkedin.com/in/taylorsmith"
+  image: "assets/images/taylor.jpg"

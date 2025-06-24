@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" class="teddy-logo">
+   <!-- Body -->
+  <path d="M100 160c40 0 60-25 60-60 0-35-20-60-60-60S40 65 40 100c0 35 20 60 60 60z" fill="#800020"/>
+  
+  <!-- Head -->
+  <circle cx="100" cy="80" r="30" fill="#800020"/>
+  
+  <!-- Ears -->
+  <circle cx="60" cy="60" r="30" fill="#800020"/>
+  <circle cx="140" cy="60" r="30" fill="#800020"/>
+  
+  <!-- Inner Ears -->
+  <circle cx="60" cy="60" r="20" fill="#d4a59a" opacity="0.2"/>
+  <circle cx="140" cy="60" r="20" fill="#d4a59a" opacity="0.2"/>
+  
+  <!-- Arms -->
+  <path d="M40 110c-10 15-5 30 0 35 5 5 15 10 20 5" stroke="#800020" stroke-width="12" fill="none"/>
+  <path d="M160 110c10 15 5 30 0 35-5 5-15 10-20 5" stroke="#800020" stroke-width="12" fill="none"/>
+  
+  <!-- Legs -->
+  <path d="M80 160c0 10-10 15-15 15s-15-5-15-15" stroke="#800020" stroke-width="12" fill="none"/>
+  <path d="M120 160c0 10 10 15 15 15s15-5 15-15" stroke="#800020" stroke-width="12" fill="none"/>
+</svg>

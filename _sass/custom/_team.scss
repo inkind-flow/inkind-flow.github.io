@@ -1,0 +1,15 @@
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin: $section-padding 0;
+
+  .member {
+    text-align: center;
+    img {
+      border-radius: 50%;
+      border: 3px solid $teddy-brown;
+      width: 150px;
+    }
+  }
+}

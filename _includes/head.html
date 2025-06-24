@@ -1,0 +1,42 @@
+<!-- Load custom CSS -->
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+<!-- Favicon Basic -->
+<link rel="icon" href="{{ '/assets/favicons/favicon.ico' | relative_url }}" sizes="any">
+<link rel="icon" href="{{ '/assets/favicons/icon.svg' | relative_url }}" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{{ '/assets/favicons/apple-touch-icon.png' | relative_url }}">
+
+<!-- Modern Browsers -->
+<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicons/favicon-32x32.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicons/favicon-16x16.png' | relative_url }}">
+
+<!-- Web App Manifest -->
+<link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
+
+
+<!-- Teddy bear logo SVG (inline for performance) -->
+<svg style="display:none">
+  <symbol id="teddy-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+   <!-- Body -->
+  <path d="M100 160c40 0 60-25 60-60 0-35-20-60-60-60S40 65 40 100c0 35 20 60 60 60z" fill="var(--logo-primary, #800020)"/>
+  
+  <!-- Head -->
+  <circle cx="100" cy="80" r="30" fill="var(--logo-primary, #800020)"/>
+  
+  <!-- Ears -->
+  <circle cx="60" cy="60" r="30" fill="var(--logo-primary, #800020)"/>
+  <circle cx="140" cy="60" r="30" fill="var(--logo-primary, #800020)"/>
+  
+  <!-- Inner Ears -->
+  <circle cx="60" cy="60" r="20" fill="var(--logo-accent, #d4a59a)" opacity="0.2"/>
+  <circle cx="140" cy="60" r="20" fill="var(--logo-accent, #d4a59a)" opacity="0.2"/>
+  
+  <!-- Arms -->
+  <path d="M40 110c-10 15-5 30 0 35 5 5 15 10 20 5" stroke="var(--logo-primary, #800020)" stroke-width="12" fill="none"/>
+  <path d="M160 110c10 15 5 30 0 35-5 5-15 10-20 5" stroke="var(--logo-primary, #800020)" stroke-width="12" fill="none"/>
+  
+  <!-- Legs -->
+  <path d="M80 160c0 10-10 15-15 15s-15-5-15-15" stroke="var(--logo-primary, #800020)" stroke-width="12" fill="none"/>
+  <path d="M120 160c0 10 10 15 15 15s15-5 15-15" stroke="var(--logo-primary, #800020)" stroke-width="12" fill="none"/>
+  </symbol>
+</svg>

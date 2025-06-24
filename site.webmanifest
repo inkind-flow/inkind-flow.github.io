@@ -1,0 +1,19 @@
+{
+  "name": "InKind Flow",
+  "short_name": "InKind",
+  "icons": [
+    {
+      "src": "/assets/favicons/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/favicons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#800020",
+  "background_color": "#f8f1e5",
+  "display": "standalone"
+}

@@ -1,0 +1,122 @@
+.site-header {
+  background: $brand-color; // Burgundy (#800020)
+  border-bottom: 3px solid darken($brand-color, 5%);
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  .header-brand {
+    flex: 0 0 auto; // Prevents growing/shrinking, keeps left
+
+    .site-logo-link {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+    }
+
+    .site-logo {
+      width: 40px;
+      height: 40px;
+      margin-right: 12px;
+      --logo-primary: #d4a59a; 
+      --logo-accent: #800020;
+      use {
+        fill: white;
+        transition: fill 0.3s ease;
+      }
+    }
+
+    .site-title {
+      color: white !important;
+      font-weight: 700;
+      font-size: 1.3rem;
+      margin: 0;
+      transition: color 0.3s ease;
+    }
+
+    &:hover {
+      .site-logo use {
+        fill: $teddy-brown;
+      }
+      .site-title {
+        color: $teddy-brown !important;
+      }
+    }
+  }
+
+  .site-nav {
+    .nav-trigger {
+      display: none;
+    }
+
+    .menu-icon {
+      display: none;
+    }
+
+    .page-link {
+      color: white !important;
+      font-weight: 500;
+      padding: 0.5rem 1rem;
+      margin: 0 0.2rem;
+      border-radius: 4px;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background: rgba(255,255,255,0.15);
+        color: $teddy-brown !important;
+      }
+    }
+  }
+}
+
+// Mobile styles
+@include media-query($on-palm) {
+  .site-header {
+    padding: 0.8rem 0;
+
+    .wrapper {
+      flex-wrap: wrap;
+      padding: 0 1rem;
+    }
+
+    .site-nav {
+      width: 100%;
+      text-align: center;
+
+      .nav-trigger ~ .trigger {
+        display: none;
+      }
+
+      .nav-trigger:checked ~ .trigger {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 0;
+      }
+
+      .menu-icon {
+        display: block;
+        position: absolute;
+        right: 1rem;
+        top: 1.2rem;
+        cursor: pointer;
+      }
+
+      .page-link {
+        display: block;
+        padding: 0.8rem;
+        margin: 0.2rem 0;
+      }
+    }
+  }
+}

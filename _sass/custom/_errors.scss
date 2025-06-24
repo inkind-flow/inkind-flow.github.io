@@ -1,0 +1,27 @@
+.error-page {
+  text-align: center;
+  padding: 4rem 1rem;
+  color: $brand-color;
+
+  .error-logo use {
+    fill: $teddy-brown;
+  }
+
+  h1 {
+    font-size: 5rem;
+    margin: 1rem 0;
+  }
+}
+
+.btn-error {
+  background: $brand-color;
+  color: white;
+  padding: 0.8rem 2rem;
+  margin-top: 1rem;
+  display: inline-block;
+  border-radius: 4px;
+
+  &:hover {
+    background: darken($brand-color, 10%);
+  }
+}

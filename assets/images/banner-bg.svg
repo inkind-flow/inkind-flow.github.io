@@ -1,0 +1,16 @@
+<svg class="banner-pattern" viewBox="0 0 1200 300" preserveAspectRatio="xMidYMin slice" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path id="wave" d="M0,100 C125,80 375,120 500,100 L500,0 L0,0 Z" fill="#D4A59A" opacity="0.15"/>
+    <path id="thin-wave" d="M0,150 C200,100 400,200 600,150 C800,100 1000,200 1200,150" 
+            fill="none" stroke="rgba(212, 165, 154, 0.2)" 
+            stroke-width="50" stroke-linecap="round"/>
+    </defs>
+  
+
+
+  <use href="#thin-wave" transform="translate(0, -40)"/>
+  <use href="#thin-wave" transform="translate(0, -40) scale(1, -1)"/>
+  <use href="#thin-wave" transform="translate(0, -60)"/>
+
+  
+</svg>

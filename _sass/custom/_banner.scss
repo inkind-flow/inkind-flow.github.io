@@ -1,0 +1,38 @@
+.banner {
+  padding: 4rem 1rem;
+  text-align: center;
+  color: white;
+  background-size: cover !important;
+  margin-bottom: 2rem;
+
+  &-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  &-logo {
+    margin-bottom: 1rem;
+    use {
+      fill: white;
+    }
+  }
+
+  &-subtitle {
+    font-size: 1.25rem;
+    margin: 1rem 0 2rem;
+  }
+}
+
+.btn-banner {
+  background: white;
+  color: $brand-color;
+  padding: 0.8rem 2rem;
+  font-weight: bold;
+  border-radius: 50px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+
+  &:hover {
+    background: $teddy-brown;
+    color: white;
+  }
+}

@@ -1,0 +1,41 @@
+title: InKind
+description: Helping with your in-kind donations
+baseurl: ""
+url: "https://inkind-flow.github.io"
+theme: minima
+
+minima:
+  skin: auto
+  custom_head: _includes/head.html  # For CSS overrides
+
+permalink: pretty  # Creates /product/ instead of /product.html
+
+
+
+# navigation
+header_pages:
+  - about.md
+  - product.md
+  - team.md
+  - blog.md
+
+colors:
+  primary: "#800020" # or your brand color
+
+sass:
+  sass_dir: _sass  # Points to _sass folder
+  style: compressed
+
+# configure blog posts
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: false  # Disable if not using Disqus
