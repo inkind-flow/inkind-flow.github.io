@@ -21,7 +21,7 @@ Whether you’re a small community group or a large nonprofit, InKind helps you 
 Have questions or want to learn more?  
 Feel free to reach out:
 
-- 📧 Email: [hello@inkind.org](mailto:hello@inkind.org)
+- 📧 Email: [office@inkind.at](office@inkind.at)
 - 🌐 Website: [https://inkind-flow.github.io](https://inkind-flow.github.io)
 - 💼 LinkedIn: [InKind on LinkedIn](https://linkedin.com/company/inkind)
 
