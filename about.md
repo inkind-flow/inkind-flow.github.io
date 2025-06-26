@@ -23,6 +23,6 @@ Feel free to reach out:
 
 - 📧 Email: [office@inkind.at](office@inkind.at)
 - 🌐 Website: [https://inkind-flow.github.io](https://inkind-flow.github.io)
-- 💼 LinkedIn: [InKind on LinkedIn](https://linkedin.com/company/inkind)
+- 💼 LinkedIn: [InKind on LinkedIn](https://www.linkedin.com/company/inkind-at)
 
 We look forward to connecting with you!
