@@ -4,9 +4,11 @@ title: Impressum
 permalink: /impressum/
 ---
 
-# Impressum
-
 **InKind**   
+
+Diese Website wird betrieben von:
+
+**Natalia Ruemmele**  
 3100 St. Pölten
 Österreich
 
